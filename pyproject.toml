@@ -1,0 +1,14 @@
+[project]
+name = "taller-avanzado"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.121.3",
+    "pytest>=9.0.1",
+    "pytest-playwright>=0.7.2",
+    "python-multipart>=0.0.20",
+    "selenium>=4.38.0",
+    "uvicorn>=0.38.0",
+]

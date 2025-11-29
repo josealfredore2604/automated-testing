@@ -1,0 +1,52 @@
+# ----------------------------------------
+# Node.js
+# ----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-store
+
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.python-version
+.venv/
+env/
+venv/
+.idea/
+
+# ----------------------------------------
+# Cypress
+# ----------------------------------------
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# ----------------------------------------
+# Playwright
+# ----------------------------------------
+playwright-report/
+test-results/
+trace.zip
+
+# ----------------------------------------
+# OS files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Build / temp / lockfiles
+# ----------------------------------------
+*.log
+*.lock
+uv.lock
